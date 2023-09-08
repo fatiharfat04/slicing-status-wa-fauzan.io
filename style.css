@@ -1,0 +1,192 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+    background-color: #eaeaea;
+}
+
+.banner{
+    background-size: cover;
+    background-position: center;
+    width: 800px;
+    margin: auto;
+    background-image: url(ospek3.jpg);
+}
+
+.d-b{
+    padding: 40px;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: #fff;
+}
+
+.search input{
+    width: 400px;
+    height: 40px;
+    border-radius: 50px;
+    border: 1px solid white;
+    padding: 15px;
+    box-shadow: 3px 5px #999;
+}
+
+input:focus{
+    outline: none;
+}
+
+.search{
+    width: 800px;
+    margin: auto;
+    padding: 0px 200px 30px;
+}
+
+.akun{
+    width: 800px;
+    margin: auto;
+    height: 900px;
+    background-color: white;
+    border-radius: 50px 50px 0px 0px;
+}
+
+.akun p{
+    padding: 50px;
+
+}
+
+.akun p a {
+    text-decoration: none;
+}
+
+.akun p span {
+    color: grey;
+}
+
+.profile{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    float: left;
+    margin: 30px;
+}
+
+.logo{
+    width: 70px;
+    height: 70px;
+    border-radius: 0px;
+    float: right;
+    margin: 45px 65px;
+}
+
+.container ul li{
+    display: inline-block;
+    margin-top: 15px;
+    margin-right: 30px;
+    margin-left: 60px;
+}
+
+.container ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.container a:hover{
+    color: black;
+    border-bottom: 2px solid hsl(0, 0%, 0%);
+}
+
+.foto{
+    width: 800px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.semua{
+    padding-top: 30px;
+    width: 625px;
+    height: 325px;
+    border-radius: 40px;
+}
+
+.f-k{
+    width: 800px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding-top: 20px;
+    gap: 10px;
+}
+
+.kecil{
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.bacaan{
+    width: 800px;
+    height: 200px;
+    text-align: center;
+}
+
+.footer{
+    width: 800px;
+    height: 30px;
+    margin: auto;
+    background-color: #000;
+    color: #eaeaea;
+    text-align: center;
+    padding-top: 15px;
+}
